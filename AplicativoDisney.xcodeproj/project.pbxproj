@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		E369032F290185960013E63B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369032E290185960013E63B /* AppDelegate.swift */; };
 		E3690331290185960013E63B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690330290185960013E63B /* SceneDelegate.swift */; };
-		E3690333290185960013E63B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690332290185960013E63B /* ViewController.swift */; };
-		E3690336290185960013E63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3690334290185960013E63B /* Main.storyboard */; };
 		E3690338290185970013E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3690337290185970013E63B /* Assets.xcassets */; };
 		E369033B290185970013E63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3690339290185970013E63B /* LaunchScreen.storyboard */; };
 		E3690346290185970013E63B /* AplicativoDisneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690345290185970013E63B /* AplicativoDisneyTests.swift */; };
 		E3690350290185970013E63B /* AplicativoDisneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369034F290185970013E63B /* AplicativoDisneyUITests.swift */; };
 		E3690352290185970013E63B /* AplicativoDisneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690351290185970013E63B /* AplicativoDisneyUITestsLaunchTests.swift */; };
+		E3690361290187520013E63B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690360290187520013E63B /* Extensions.swift */; };
+		E3690363290188890013E63B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690362290188890013E63B /* Video.swift */; };
+		E369036529018FE70013E63B /* VideoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369036429018FE70013E63B /* VideoListController.swift */; };
+		E3690367290199A10013E63B /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3690366290199A10013E63B /* VideoCell.swift */; };
+		E36903692902C57A0013E63B /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36903682902C57A0013E63B /* ApiModel.swift */; };
+		E36903702902D3DA0013E63B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369036F2902D3DA0013E63B /* API.swift */; };
+		E36903732902DD9A0013E63B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = E36903722902DD9A0013E63B /* SDWebImage */; };
+		E369037529031C4B0013E63B /* PricessDetailControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E369037429031C4B0013E63B /* PricessDetailControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		E369032B290185960013E63B /* AplicativoDisney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AplicativoDisney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369032E290185960013E63B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3690330290185960013E63B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3690332290185960013E63B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3690335290185960013E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3690337290185970013E63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E369033A290185970013E63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E369033C290185970013E63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,13 @@
 		E369034B290185970013E63B /* AplicativoDisneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicativoDisneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E369034F290185970013E63B /* AplicativoDisneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicativoDisneyUITests.swift; sourceTree = "<group>"; };
 		E3690351290185970013E63B /* AplicativoDisneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicativoDisneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3690360290187520013E63B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E3690362290188890013E63B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E369036429018FE70013E63B /* VideoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListController.swift; sourceTree = "<group>"; };
+		E3690366290199A10013E63B /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		E36903682902C57A0013E63B /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		E369036F2902D3DA0013E63B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E369037429031C4B0013E63B /* PricessDetailControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricessDetailControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36903732902DD9A0013E63B /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +111,12 @@
 		E369032D290185960013E63B /* AplicativoDisney */ = {
 			isa = PBXGroup;
 			children = (
-				E369032E290185960013E63B /* AppDelegate.swift */,
-				E3690330290185960013E63B /* SceneDelegate.swift */,
-				E3690332290185960013E63B /* ViewController.swift */,
-				E3690334290185960013E63B /* Main.storyboard */,
-				E3690337290185970013E63B /* Assets.xcassets */,
-				E3690339290185970013E63B /* LaunchScreen.storyboard */,
+				E369036E2902D3C40013E63B /* Service */,
+				E369036D2902C8790013E63B /* Aplications */,
+				E369036B2902C7E00013E63B /* Source */,
+				E369036A2902C7C50013E63B /* Model */,
 				E369033C290185970013E63B /* Info.plist */,
+				E369036C2902C8350013E63B /* Resource */,
 			);
 			path = AplicativoDisney;
 			sourceTree = "<group>";
@@ -127,6 +138,52 @@
 			path = AplicativoDisneyUITests;
 			sourceTree = "<group>";
 		};
+		E369036A2902C7C50013E63B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36903682902C57A0013E63B /* ApiModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E369036B2902C7E00013E63B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E3690362290188890013E63B /* Video.swift */,
+				E3690360290187520013E63B /* Extensions.swift */,
+				E369036429018FE70013E63B /* VideoListController.swift */,
+				E369037429031C4B0013E63B /* PricessDetailControllerViewController.swift */,
+				E3690366290199A10013E63B /* VideoCell.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E369036C2902C8350013E63B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E3690337290185970013E63B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E369036D2902C8790013E63B /* Aplications */ = {
+			isa = PBXGroup;
+			children = (
+				E3690330290185960013E63B /* SceneDelegate.swift */,
+				E3690339290185970013E63B /* LaunchScreen.storyboard */,
+				E369032E290185960013E63B /* AppDelegate.swift */,
+			);
+			path = Aplications;
+			sourceTree = "<group>";
+		};
+		E369036E2902D3C40013E63B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E369036F2902D3DA0013E63B /* API.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +200,9 @@
 			dependencies = (
 			);
 			name = AplicativoDisney;
+			packageProductDependencies = (
+				E36903722902DD9A0013E63B /* SDWebImage */,
+			);
 			productName = AplicativoDisney;
 			productReference = E369032B290185960013E63B /* AplicativoDisney.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = E3690322290185960013E63B;
+			packageReferences = (
+				E36903712902DD9A0013E63B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = E369032C290185960013E63B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +296,6 @@
 			files = (
 				E369033B290185970013E63B /* LaunchScreen.storyboard in Resources */,
 				E3690338290185970013E63B /* Assets.xcassets in Resources */,
-				E3690336290185960013E63B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3690333290185960013E63B /* ViewController.swift in Sources */,
+				E3690361290187520013E63B /* Extensions.swift in Sources */,
+				E3690367290199A10013E63B /* VideoCell.swift in Sources */,
+				E3690363290188890013E63B /* Video.swift in Sources */,
 				E369032F290185960013E63B /* AppDelegate.swift in Sources */,
+				E36903692902C57A0013E63B /* ApiModel.swift in Sources */,
+				E369037529031C4B0013E63B /* PricessDetailControllerViewController.swift in Sources */,
+				E369036529018FE70013E63B /* VideoListController.swift in Sources */,
 				E3690331290185960013E63B /* SceneDelegate.swift in Sources */,
+				E36903702902D3DA0013E63B /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3690334290185960013E63B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3690335290185960013E63B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E3690339290185970013E63B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +502,6 @@
 				INFOPLIST_FILE = AplicativoDisney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +529,6 @@
 				INFOPLIST_FILE = AplicativoDisney/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +660,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E36903712902DD9A0013E63B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E36903722902DD9A0013E63B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36903712902DD9A0013E63B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E3690323290185960013E63B /* Project object */;
 }
